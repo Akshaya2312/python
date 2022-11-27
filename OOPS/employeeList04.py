@@ -1,12 +1,12 @@
 def main ():
     
  
-    student = get_student()
+    student = get_employee()
     if student[0]== "Deepak": 
         student[1] = "Amazon"    
     print(f"{student[0]} work in {student[1]}")
 
-def get_student():
+def get_employee():
     name = input("Name:")
     company = input("Company:")
 
